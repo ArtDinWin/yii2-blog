@@ -17,7 +17,7 @@ public function getShortText($text) {
 	$text = mb_substr($text, 0, 120);
 	$firsPos = strripos($text, ' ');
 	$text = mb_substr($text, 0, $firsPos);
-	return $text . ' ...';
+	return $text . ' ... ';
 }
 
 }

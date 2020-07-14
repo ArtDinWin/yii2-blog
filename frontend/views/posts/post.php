@@ -11,7 +11,7 @@ use yii\helpers\Url;
 <div>
 	<H2><?=$post->title?></H2>
 	<p><?=$post->text?> </p>
-	<span>Автор: <?=$post->author_id?><br>Дата: <?=$post->data?><br>Просмотры: <?=$post->views?></span>
+	<span>Автор статьи: <?=$post->author_id?><br>Дата: <?=$post->data?><br>Просмотры: <?=$post->views?></span>
 </div>
 	<button style="  display: block;
   font-family: arial,sans-serif;
@@ -27,7 +27,7 @@ use yii\helpers\Url;
   border-radius: 2px;
   background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
   transition: all .218s ease 0s;"><a class="btn bin-default" href="<?=Url::to('posts')?>">Все посты »</a></button>
-
+<!-- -->
 </div>
 
 
