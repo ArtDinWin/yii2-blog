@@ -1,0 +1,1050 @@
+2020-07-16 11:15:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:15:27 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50836'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887327.5258
+    'REQUEST_TIME' => 1594887327
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:15:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:15:56 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50837'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts'
+    'PHP_SELF' => '/index.php/posts'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887356.4155
+    'REQUEST_TIME' => 1594887356
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:16:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:16:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50838'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/'
+    'PHP_SELF' => '/index.php/posts/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887369.6512
+    'REQUEST_TIME' => 1594887369
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:16:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/index". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/index', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:16:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50844'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/index'
+    'PHP_SELF' => '/index.php/posts/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887401.6251
+    'REQUEST_TIME' => 1594887401
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:16:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/index". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/index', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:16:46 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50845'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/index'
+    'PHP_SELF' => '/index.php/posts/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887406.0843
+    'REQUEST_TIME' => 1594887406
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:16:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/index". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/index', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:16:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50848'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/index'
+    'PHP_SELF' => '/index.php/posts/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887408.1634
+    'REQUEST_TIME' => 1594887408
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:16:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:16:57 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50850'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/'
+    'PHP_SELF' => '/index.php/posts/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887417.879
+    'REQUEST_TIME' => 1594887417
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:17:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50851'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts'
+    'PHP_SELF' => '/index.php/posts'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594887420.6902
+    'REQUEST_TIME' => 1594887420
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:17:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/post". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/post', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50855'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/post?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/post'
+    'PHP_SELF' => '/index.php/posts/post'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '4b5f2b59-c4b7-44ef-a8ca-42a8ca4c4548'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887439.1582
+    'REQUEST_TIME' => 1594887439
+    'argv' => [
+        0 => 'id=1'
+    ]
+    'argc' => 1
+]
+2020-07-16 11:17:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:27 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50857'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/'
+    'PHP_SELF' => '/index.php/posts/'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '467232ee-72c8-4b64-9254-b395a5a72008'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887446.9977
+    'REQUEST_TIME' => 1594887446
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:17:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50859'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts'
+    'PHP_SELF' => '/index.php/posts'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '11e5869b-a342-4b95-98d3-18772f99df41'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887451.7979
+    'REQUEST_TIME' => 1594887451
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:17:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('post', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50861'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/post'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/post'
+    'PHP_SELF' => '/index.php/post'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '3a1d0bf1-5e66-460a-9401-c840637c5184'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887455.2161
+    'REQUEST_TIME' => 1594887455
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:17:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:17:39 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50863'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '4323108d-8894-426b-af59-505ec140c17b'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887459.3454
+    'REQUEST_TIME' => 1594887459
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:18:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:18:02 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50866'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/posts'
+    'PHP_SELF' => '/index.php/posts/posts'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '78cf2508-1351-4211-960c-7cd223fc0c9b'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887482.2287
+    'REQUEST_TIME' => 1594887482
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:18:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:18:36 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50873'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/'
+    'PHP_SELF' => '/index.php/posts/'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '985f24e2-d23d-4609-b759-6b8b94377483'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887516.9537
+    'REQUEST_TIME' => 1594887516
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:18:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:18:40 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50875'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '31bc6a5e-6651-4c4f-9169-87025f09f262'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887520.3359
+    'REQUEST_TIME' => 1594887520
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:19:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "api/posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('api/posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:19:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50877'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/api/posts'
+    'PHP_SELF' => '/index.php/api/posts'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '0535d490-7d39-4b9e-9d69-72ec8d0a2a6b'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887543.3752
+    'REQUEST_TIME' => 1594887543
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:19:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "api/web/posts". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('api/web/posts', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:19:13 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50879'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/api/web/posts'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/api/web/posts'
+    'PHP_SELF' => '/index.php/api/web/posts'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e11ab203-5727-485e-b71c-6d55472423d1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1594887553.6488
+    'REQUEST_TIME' => 1594887553
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:32:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:32:59 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51086'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/web/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/web/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PHP_SELF' => '/web/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594888379.4044
+    'REQUEST_TIME' => 1594888379
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:33:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:33:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51087'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/web/index.php'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/web/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PHP_SELF' => '/web/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594888392.3562
+    'REQUEST_TIME' => 1594888392
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:33:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:33:28 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51088'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/web/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/web/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/'
+    'PHP_SELF' => '/web/index.php/posts/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594888408.6531
+    'REQUEST_TIME' => 1594888408
+    'argv' => []
+    'argc' => 0
+]
+2020-07-16 11:33:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "posts/posts/". in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('posts/posts/', Array)
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\hserver\OSPanel\domains\localhost\www\yii2-blog\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-16 11:33:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '95tojhl1hlrm6ipok7ubqrp7tin33n6m'
+    '_csrf-frontend' => '2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51089'
+    'SERVER_SOFTWARE' => 'PHP 7.3.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/web/posts/posts/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/web/index.php'
+    'SCRIPT_FILENAME' => 'G:\\hserver\\OSPanel\\domains\\localhost\\www\\yii2-blog\\api\\web\\index.php'
+    'PATH_INFO' => '/posts/posts/'
+    'PHP_SELF' => '/web/index.php/posts/posts/'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=95tojhl1hlrm6ipok7ubqrp7tin33n6m; _csrf-frontend=2cfabec6f043094ca1ab61371c04b50ae79946cdc1b6736b81179c458846f231a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tt7SfDmjFzSTvfeGgt90JPVPEWJ9rFsV%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1594888415.1585
+    'REQUEST_TIME' => 1594888415
+    'argv' => []
+    'argc' => 0
+]
