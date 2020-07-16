@@ -9,11 +9,17 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use frontend\models\Posts;
+use yii\data\ActiveDataProvider;
+use yii\web\NotFoundHttpException;
 
 class PostsController extends Controller
 {
     public function actionIndex() {
-        return $this->render('index');
+        $posts = Posts::find()->all();
+
+        return $this->render('posts', [
+            'posts' => $posts
+        ]);
     }
 
     public function actionPosts() {
@@ -24,12 +30,21 @@ class PostsController extends Controller
         ]);
     }
 
-    public function actionPost() {
-        $post = Posts::find()->where(['id' => Yii::$app->request->get()['id']])->one();
-		$post->views +=1;
-		$post->save();
-        return $this->render('post', [
-            'post' => $post
-        ]);
-    }
+    public function actionPost($id) {
+ $post = Posts::findOne($id);
+// $post = Posts::find()->where(['id' => Yii::$app->request->get()['id']])->one();
+ if ($post === null) {
+ throw new NotFoundHttpException('Page not found');
+
+ }
+
+
+	$post->views +=1;
+	$post->save();
+    return $this->render('post', [
+        'post' => $post
+    ]);
+
+
+                                    }
 }

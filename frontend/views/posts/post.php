@@ -26,8 +26,8 @@ use yii\helpers\Url;
   border: 1px solid rgba(0,0,0,.1);
   border-radius: 2px;
   background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
-  transition: all .218s ease 0s;"><a class="btn bin-default" href="<?=Url::to('posts')?>">Все посты »</a></button>
-<!-- -->
+  transition: all .218s ease 0s;"><a class="btn bin-default" href="<?=Url::to('/posts/index')?>">Все посты »</a></button>
+<!--  -->
 </div>
 
 

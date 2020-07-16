@@ -8,12 +8,15 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+//    'homeUrl' => '/adminpanel',
     'components' => [
         'request' => [
+ //           'baseUrl' => '/adminpanel',
             'csrfParam' => '_csrf-backend',
         ],
         'user' => [
@@ -42,6 +45,17 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+            ],
+        ],
+        'urlManagerFrontend' => [
+            'class' => 'yii\web\urlManager',
+            'baseUrl' => 'http://yii2-blog.loc/',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+
+
+
             ],
         ],
         

@@ -40,7 +40,7 @@ class Posts extends \yii\db\ActiveRecord
             [['title'], 'string', 'max' => 256],
             [['alias'], 'string', 'max' => 100],
             [['alias'], 'unique'],
-            [['author_id'], 'exist', 'skipOnError' => true, 'targetClass' => Users::className(), 'targetAttribute' => ['author_id' => 'id']],
+            [['author_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['author_id' => 'id']],
         ];
     }
 

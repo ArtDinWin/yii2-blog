@@ -9,6 +9,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
+use yii\helpers\Url;
 
 AppAsset::register($this);
 ?>
@@ -29,16 +30,22 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name . ' | Админка',
-        'brandUrl' => Yii::$app->homeUrl,
+      'brandLabel' => Yii::$app->name . ' | Админка',
+//        'brandUrl' => Yii::$app->homeUrl,
+
+ //'brandUrl' =>   Yii::$app->urlManagerFrontend->createUrl(['' ]),
+
+  'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
+      ['label' => 'Фронтенд', 'url' => Yii::$app->urlManagerFrontend->createUrl(['' ])],
+ //       ['label' => 'Admin', 'url' => ['/site/index']],
         ['label' => 'Пользователи', 'url' => ['/users/index']],
 		['label' => 'Посты', 'url' => ['/posts/index']],
-		['label' => 'Admin', 'url' => ['/site/index']],
+
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
